@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css?family=Quantico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quantico', sans-serif;
+}
+
+img#mypic {
+    margin-top: 8%;
+    position: absolute;
+    border: 1px solid #66fcf1;
+    width: 100%;
+    height: auto;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 2vw;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #66fcf1;
+    padding: 0.5vw 1vw;
+    border: 1px solid transparent;
+    transition: 0.8s ease;
+    font-size: 1.5vw;
+}
+
+.main ul li a:hover {
+    background-color: #66fcf1;
+    color: #0b0c10;
+    transform: scale(1.5);
+    z-index: 1;
+
+}
+
+ul li a.active {
+    background-color: #66fcf1;
+    color: #0b0c10;
+
+}
+
+.logo img {
+    margin-top: -3vw;
+    float: left;
+    width: 25vw;
+    height: auto;
+    transition: 0.4s ease;
+
+}
+
+.logo img:hover {
+    transform: scale(1.2);
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.name {
+    position: absolute;
+    z-index: 1;
+    margin-top: 22vw;
+    animation: move .8s linear forwards;
+}
+
+@keyframes move {
+    from {
+        margin-left: 0vw;
+    }
+
+    to {
+        margin-left: 7vw;
+    }
+}
+
+.name h1 {
+    color: #66fcf1;
+    font-size: 5vw;
+}
+
+.course {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.course h3 {
+    color: #66fcf1;
+    font-size: 2.5vw;
+}
+
+
+.icon {
+    margin-top: 102%;
+    position: absolute;
+    left: 59%;
+    display: inline-block;
+}
+
+.icn img {
+    height: 5vw;
+    padding-left: 2vw;
+    text-decoration: none;
+    transition: 0.4s ease;
+}
+
+.icn img:hover {
+    transform: scale(1.5);
+
+
+}
+
+
+body {
+    background-color: #1f2233;
+    background-position: top;
+}
+
+
+.text {
+    color: #66fcf1;
+}
+
+#wrapper {
+    background-color: #1f2233;
+    color: #66fcf1;
+    font-size: 2vw;
+
+}
+
+.infos {
+    position: relative;
+    color: #66fcf1;
+    background-color: transparent;
+    border: .5px solid #66fcf1;
+}
+
+.infos h1 {
+    padding-left: 40%;
+    font-size: 2vw;
+}
+
+.infos p {
+
+    font-size: 1.3vw;
+}
+
+.icn img:hover {
+    transform: scale(1.5);
+
+
+}
+
+main {
+    padding-top: 56.4%;
+    display: grid;
+    grid-template-columns: 1fr;
+    float: left;
+    grid-gap: 1vw;
+    margin: 3vw;
+}
+
+main p,
+h1 {
+    margin: 1px 1px 1px 1px;
+}
+
+p a {
+    text-decoration: underline;
+    color: #66fcf1;
+}
+
+p a:hover {
+    text-decoration: none;
+    color: #1f2233;
+    background-color: #66fcf1;
+}
+
+.text {
+    line-height: 10px;
+}
+    p#cv{
+        padding-left: 37vw;
+    }
+h1#intrest{
+    padding-left: 39vw;
+}
+h1#ido{
+    padding-left: 40vw;
+}
+h1#ami{
+    padding-left: 40vw;
+}
+
+h1#cvh{
+    padding-left: 45vw;
+}
+
+@media only screen and (min-width:0px) and (max-width: 600px) {
+
+    ul li a {
+        text-decoration: none;
+        color: #66fcf1;
+        padding: 0.5vw 1vw;
+        border: 1px solid transparent;
+        transition: 0.8s ease;
+        font-size: 2.5vw;
+    }
+
+    .logo img {
+        margin-top: -3vw;
+        float: left;
+        width: 30vw;
+        height: auto;
+        transition: 0.4s ease;
+
+    }
+
+    img#mypic {
+        margin-top: 12%;
+        position: absolute;
+        border: 1px solid #66fcf1;
+        width: 100%;
+        height: auto;
+    }
+
+    .icon {
+        position: absolute;
+        left: 55%;
+        display: inline-block;
+    }
+
+    .icn img {
+        height: 5vw;
+        padding-left: 2vw;
+        text-decoration: none;
+        transition: 0.4s ease;
+        margin-bottom: -80vw;
+    }
+
+    .infos {
+        padding-left: 0;
+        position: relative;
+        color: #66fcf1;
+        background-color: transparent;
+        border: .5px solid #66fcf1;
+    }
+
+    .infos h1 {
+        padding: 0;
+        margin: 2vw 2vw;
+        font-size: 5vw;
+    }
+
+
+    .infos p {
+
+        font-size: 3vw;
+    }
+
+    main {
+        padding-top: 56.4%;
+        display: grid;
+        grid-template-columns: 1fr;
+        float: left;
+        grid-gap: 1vw;
+        margin: 3vw;
+          padding-left: 1vw;
+    }
+
+    main p,
+    h1 {
+
+        margin: 1px 1px 1px 1px;
+    }
+
+    p a {
+        text-decoration: underline;
+        color: #66fcf1;
+    }
+        p#cv{
+        padding-left: 20vw;
+    }
+h1#intrest{
+    padding-left: 26vw;
+}
+h1#ido{
+    padding-left: 30vw;
+}
+h1#ami{
+    padding-left: 30vw;
+}
+
+h1#cvh{
+    padding-left: 35vw;
+}
+}
